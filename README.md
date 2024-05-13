@@ -1,0 +1,1 @@
+This is my assignment task for web development intemship at clove dentals (don't remember the name actually lol). They handed me this assignment but i'm not gonna give them the source code they have to pay for it 😂
