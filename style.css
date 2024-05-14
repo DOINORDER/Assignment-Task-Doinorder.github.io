@@ -211,11 +211,32 @@ width: 50%;
 }
 .right-hug .location{
     width: 50%;
-    background: yellowgreen;
+    /* background: yellowgreen; */
+    display: block;
+    align-items: center;
 }
-.location input{
+.location .input{
+    display: block;
+}
+.location select{
     border-radius: 20px;
-    
+    border: gray 1px solid;
+    padding: 8px 50px;
+    color: gray;
+    font-size: 13px;
+    text-align: left;
+    background-color: transparent;
+}
+.location .div{
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    background-color: transparent;
+    background: var(--primary-color);
+    border: var(--primary-color-dark) 1px solid;
 }
 #treatment {
     padding: 80px 100px;
@@ -248,7 +269,7 @@ width: 50%;
 #treatment #layout h1 {
     font-size: 28px;
     word-wrap: wrap;
-    margin: 10px 16rem;
+    margin: 10px 12rem;
     text-align: center;
 }
 
@@ -272,33 +293,38 @@ width: 50%;
 }
 
 #advertisement {
-    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     /* margin: 40px; */
     padding: 30px 60px;
-    /* background: greenyellow; */
+    background: greenyellow;
 }
 
+
+
 #left-card {
-    height: 38.7rem;
     width: 40%;
-    /* background: #fff9f4; */
-    background: red;
+    background: #fff9f4;
+    /* background: red; */
     margin: auto 10px auto 70px;
     border-radius: 20px;
     padding: 30px 40px;
 }
 
+
+
 #left-card h1 {
-    line-height: 35px;
-    padding: 10px 50px;
+    margin-bottom: 0px;
+    padding: 10px 30px 0px;
     font-size: 25px;
+}
+#left-card p{
+    padding: 10px 30px;
+    font-size: 14px;
 }
 
 #right-card {
-    height: 100%;
     width: 60%;
     margin: 0px 50px auto 10px;
     border-radius: 20px;
@@ -306,7 +332,6 @@ width: 50%;
 
 #right-card .top {
     background:#FBF5FF;
-    height: 20rem;
     width: 100%;
     border-radius: 20px;
     display: flex;
@@ -319,25 +344,32 @@ width: 50%;
 }
 
 .top .top-left h1 {
-    padding: 40px 0px 20px 30px;
+    font-size: 26px;
+    padding: 40px 0px 10px 30px;
     letter-spacing: 1px;
-    font-weight: 600
+    font-weight: 700;
 }
 .top .top-left p {
-    padding: 0px 25px;
+    padding: 0px 30px;
     line-height: 25px;
     letter-spacing: .7px;
 }
+.top .top-left h4 {
+    padding: 0px 30px;
+    line-height: 25px;
+    letter-spacing: .3px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 6rem;
+}
 .top .top-left a{
     color: var(--text-dark);
-    line-height: 18rem;
-    padding: 0px 25px;
+    padding: 0px 30px;
+    font-size: 13px;
 }
 
 #right-card .top .top-right {
-    height: 100%;
     width: 47%;
-    /* background: #000; */
 }
 
 #right-card .top .top-right img {
@@ -357,7 +389,6 @@ width: 50%;
 }
 
 .bottom .bottom-left {
-    height: 18em;
     width: 50%;
     background: #f5f8ff;
     border-radius: 20px;
@@ -376,7 +407,7 @@ width: 50%;
     color: var(--text-dark);
     text-align: center;
     font-size: 15px;
-    padding-top: 20px;
+    padding:10px 20px;
     text-decoration: underline;
 }
 .img-div{
@@ -384,14 +415,16 @@ width: 50%;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    height: 110px;
+    width: 110px;
+    margin-inline: auto;
 }
 .bottom .img-div img{
+    height: 100%;
     object-fit: cover;
-    object-position: center;
 }
 
 .bottom .bottom-right {
-    height: 18rem;
     width: 50%;
     background: #E1F2EE;
     border-radius: 20px;
@@ -409,6 +442,6 @@ width: 50%;
     color: var(--text-dark);
     text-align: center;
     font-size: 15px;
-    padding-top: 20px;
+    padding: 10px 20px;
     text-decoration: underline;
 }
