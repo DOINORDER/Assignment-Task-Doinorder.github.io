@@ -189,6 +189,20 @@ width: 50%;
     font-size: 23px;
     color: #4D2C19;
 }
+.star .😃{
+    display: block;
+    margin: 0px 30px;
+    line-height: 25px;
+}
+.star .😃 h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.star .😃 p{
+    font-size: 15px;
+    font-weight: 600;
+}
 .right-hug .star-logo img{
     height: 30px;
     width: 30px;
@@ -198,6 +212,10 @@ width: 50%;
 .right-hug .location{
     width: 50%;
     background: yellowgreen;
+}
+.location input{
+    border-radius: 20px;
+    
 }
 #treatment {
     padding: 80px 100px;
