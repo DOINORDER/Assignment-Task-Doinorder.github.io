@@ -68,7 +68,11 @@
                 </div>
             </div>
             <div class="location">
-                <input type="text" id="fname" name="fname" value="Select your City">
+                <div class="input">
+                <!-- <input type="text" id="fname" name="fname" value="Select your City"> -->
+                <select name="Select your City" id="input"><option value="">Select your City</option></select>
+                <div class="div">Locate nearest Clove clinic</div>
+            </div>
             </div>
             <!-- <img src="assets/5 star.png" alt=""> -->
         </div>
@@ -106,13 +110,25 @@
     <div id="advertisement">
         <div id="left-card">
             <h1>Expert Guidance for Healthy Smiles</h1>
+            <p>Contact Now</p>
+            <div class="card">
+                <!-- <legend>Name</legend>
+                <input type="text" placeholder="Type yout name"> -->
+                <fieldset>
+                    <legend>User Information</legend>
+                    <!-- more form input elements -->
+                    <input type="text" id="Name" placeholder="name" name="name">
+                </fieldset>
+                <input type="email" id="email" placeholder="Mobile Number" name="email">
+                <input type="email" id="email" placeholder="Mobile Number" name="concern">
+            </div>
         </div>
         <div id="right-card">
             <div class="top">
                 <div class="top-left">
                     <h1>10x Safety Protocols</h1>
                     <p>Monitored by <strong>DORI</strong></p>
-                    <p>(Artificial Intelligence System)</p>
+                    <h4>(Artificial Intelligence System)</h4>
                     <a href="#">Learn More<i class="ri-arrow-right-line"></i></a>
                 </div>
                 <div class="top-right">
@@ -136,7 +152,7 @@
                     </h1>
                     <p>Covering All Specialities</p>
                     <div class="img-div">
-                        <img src="assets/Clinics.png" alt="">
+                        <img src="assets/Experts.png" alt="">
                     </div>
                     <h3>Explore Dentists Nearby <i class="ri-arrow-right-line"></i></h3>
                 </div>
