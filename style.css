@@ -35,6 +35,12 @@ html {
     background-color: #fff1e6;
 }
 
+#header .left{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
 #header .img {
     display: flex;
     align-items: center;
@@ -133,8 +139,9 @@ html {
 }
 
 #hug .left-hug {
-    width: 40%;
-    margin: 20px 40px;
+    width:50%;
+    margin: 40px;
+    padding: 10px;
 }
 
 #hug .left-hug span {
@@ -153,14 +160,45 @@ html {
 }
 
 #hug .right-hug {
-    width: 60%;
+    width: 50%;
+    /* background: cadetblue; */
+    margin: 40px;
+    display: flex;
 }
 
-#hug .right-hug img {
-    height: 160px;
-    padding: 20px;
+#hug .right-hug .img {
+    height: 100px;
+    width: 100px;
+    /* background: rebeccapurple; */
 }
 
+.right-hug .img img{
+    height: 100%;
+    object-fit: cover;
+}
+.right-hug .star{
+width: 50%;
+/* background: #000; */
+}
+.right-hug .star-logo{
+    display: flex;
+    /* background: cadetblue; */
+    margin: 10px 30px;
+}
+.right-hug .star-logo h2{
+    font-size: 23px;
+    color: #4D2C19;
+}
+.right-hug .star-logo img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.right-hug .location{
+    width: 50%;
+    background: yellowgreen;
+}
 #treatment {
     padding: 80px 100px;
 }
@@ -186,7 +224,7 @@ html {
     border-radius: 20px;
     background-color: #fff9f4;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
 }
 
 #treatment #layout h1 {
