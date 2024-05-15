@@ -296,9 +296,7 @@ width: 50%;
     width: 100%;
     display: flex;
     align-items: center;
-    /* margin: 40px; */
     padding: 30px 60px;
-    background: greenyellow;
 }
 
 
@@ -352,7 +350,7 @@ width: 50%;
     width: 100%;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .top .top-left {
@@ -362,7 +360,7 @@ width: 50%;
 
 .top .top-left h1 {
     font-size: 26px;
-    padding: 40px 0px 10px 30px;
+    padding: 30px 0px 10px 30px;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -373,7 +371,7 @@ width: 50%;
 }
 .top .top-left h4 {
     padding: 0px 30px;
-    line-height: 25px;
+    line-height: 20px;
     letter-spacing: .3px;
     font-size: 10px;
     font-weight: 500;
@@ -382,14 +380,15 @@ width: 50%;
 .top .top-left a{
     color: var(--text-dark);
     padding: 0px 30px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 #right-card .top .top-right {
     width: 47%;
 }
 
-#right-card .top .top-right img {
+.top-right img {
+    /* margin: 20px 0px; */
     height: 100%;
     width: 100%;
     object-fit: cover;
